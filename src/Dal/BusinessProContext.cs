@@ -14,7 +14,7 @@ namespace Dal
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Filename=./Blogging.db");
+            optionsBuilder.UseSqlite("Filename=./BusinessPro.db");
         }
     }
 }
