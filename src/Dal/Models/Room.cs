@@ -11,7 +11,7 @@ namespace Dal.Models
 
         public string Name { get; set; }
 
-        // TODO: Add Department models
+        // TODO: Add Department models https://docs.microsoft.com/en-us/ef/core/modeling/relationships#many-to-many
         //public List<Department> Departments { get; set; }
     }
 }

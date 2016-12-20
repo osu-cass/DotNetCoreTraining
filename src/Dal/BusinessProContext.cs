@@ -9,12 +9,14 @@ namespace Dal
 {
     public class BusinessProContext : DbContext
     {
+        public BusinessProContext(DbContextOptions<BusinessProContext> options) : base(options) { }
+       
+        //TODO: Add Models here
         public DbSet<Room> Rooms { get; set; }
 
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //TODO: see https://docs.microsoft.com/en-us/ef/core/modeling/relationships#many-to-many
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            optionsBuilder.UseSqlite("Filename=./BusinessPro.db");
         }
     }
 }
