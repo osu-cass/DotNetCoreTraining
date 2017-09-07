@@ -1,3 +1,3 @@
 # DotNetCoreTraining
 
-Please see the wiki [wiki](https://github.com/osu-cass/DotNetCoreTraining/wiki)
+Instructions? Please see the [wiki](https://github.com/osu-cass/DotNetCoreTraining/wiki)
